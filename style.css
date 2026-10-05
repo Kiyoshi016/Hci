@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #000;
+  margin: 15px 20px;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: normal;
+  color: #333a56;
+  margin: 0 0 8px 0;
+  padding: 6px 0;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 0 0 15px 0;
+}
+
+p {
+  margin: 8px 0;
+}
+
+.red {
+  color: #9b1c1c;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 4px 0;
+}
+
+td {
+  padding: 3px 0;
+  vertical-align: middle;
+}
+
+td:first-child {
+  width: 165px;
+  font-size: 11px;
+}
+
+td:nth-child(2) {
+  width: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"] {
+  width: 195px;
+  height: 24px;
+  border: 1px solid #ccc;
+  padding: 0 4px;
+  font-size: 13px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus {
+  outline: none;
+  border: 2px solid #3b82f6;
+}
+
+table:nth-of-type(5) {
+  margin-left: 12px;
+}
+
+table:nth-of-type(5) td:first-child {
+  width: 215px;
+}
+
+table:nth-of-type(5) input[type="text"] {
+  width: 295px;
+}
+
+input[type="checkbox"] {
+  margin: 0 3px 0 12px;
+}
+
+label[for="metro"],
+label[for="province"] {
+  font-size: 11px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  padding: 5px 15px;
+  margin-top: 8px;
+}

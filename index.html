@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID Registration by Marvs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+   
+<h2>Online Member User ID Registration</h2>
+<hr> 
+<p class="red">*Required Field</p>
+<p>Please supply the following information as reported to the Social Security System</p>
+ 
+<form>
+  <table>
+    <tr>
+      <td><label for="crn">* CRN / SS Number</label></td>
+      <td>:</td>
+      <td><input type="text" id="crn" name="crn"></td>
+    </tr>
+  </table>
+ 
+ <p class="red">If your email address is other than yahoo.com, kindly inform your network administrator not to block mail from sss.gov.ph.</p>
+ 
+  <table>
+    <tr>
+      <td><label for="email">* Email Address</label></td>
+      <td>:</td>
+      <td><input type="email" id="email" name="email"></td>
+    </tr>
+    <tr>
+      <td><label for="email2">* Confirm Email Address</label></td>
+      <td>:</td>
+      <td><input type="email" id="email2" name="email2"></td>
+    </tr>
+  </table>
+ 
+  <p class="red">Length must be 8-20 characters. First character must be alphabetic. No special characters except underscore. (Ex. Juan_Cruz1234)</p>
+ 
+  <table>
+    <tr>
+      <td><label for="uid">* Preferred User ID</label></td>
+      <td>:</td>
+      <td><input type="text" id="uid" name="uid"></td>
+    </tr>
+    <tr>
+      <td><label for="uid2">* Confirm Preferred User ID:</label></td>
+      <td>:</td>
+      <td><input type="text" id="uid2" name="uid2"></td>
+    </tr>
+  </table>
+ 
+  <p class="red">The following characters are not allowed: # % ( ) \ -- ' " || &amp;&amp; \" */</p>
+ 
+  <table>
+    <tr>
+      <td><label for="last">* Surname/Last Name</label></td>
+      <td>:</td>
+      <td><input type="text" id="last" name="last"></td>
+    </tr>
+    <tr>
+      <td><label for="first">* Given Name</label></td>
+      <td>:</td>
+      <td><input type="text" id="first" name="first"></td>
+    </tr>
+    <tr>
+      <td><label for="middle">Middle Name</label></td>
+      <td>:</td>
+      <td><input type="text" id="middle" name="middle"></td>
+    </tr>
+    <tr>
+      <td><label for="dob">* Date of Birth</label></td>
+      <td>:</td>
+      <td><input type="date" id="dob" name="dob"></td>
+    </tr>
+  </table>
+ 
+  <p>* Mailing Address (Philippine Address)</p>
+ 
+  <table>
+    <tr>
+      <td><label for="unit">Room / Floor / Unit No. &amp; Building Name</label></td>
+      <td>:</td>
+      <td><input type="text" id="unit" name="unit"></td>
+    </tr>
+    <tr>
+      <td><label for="house">House / Lot &amp; Block No.</label></td>
+      <td>:</td>
+      <td><input type="text" id="house" name="house"></td>
+    </tr>
+    <tr>
+      <td><label for="street">Street</label></td>
+      <td>:</td>
+      <td><input type="text" id="street" name="street"></td>
+    </tr>
+    <tr>
+      <td><label for="subdivision">Subdivision</label></td>
+      <td>:</td>
+      <td><input type="text" id="subdivision" name="subdivision"></td>
+    </tr>
+  </table>
+ 
+  <p>
+    <input type="checkbox" id="metro" name="metro" checked>
+    <label for="metro">Metro Manila</label>
+    <input type="checkbox" id="province" name="province">
+    <label for="province">Province</label>
+  </p>
+
+  <p>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </p>
+</form>
+</body>
+</html>
